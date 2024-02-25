@@ -1,0 +1,6 @@
+// Learn what SASS variables you can override with Vuetify: https://vuetifyjs.com/en/features/sass-variables/#variable-api
+// Uncomment the section below to start override styles.
+
+@use "vuetify/settings" with (
+  $button-height: 44px
+);
