@@ -306,6 +306,7 @@ A GitHub workflow has been included with this boilerplate. It performs the follo
 2. Runs ESLint
 3. Runs Stylelint
 4. Builds your app to verify it's ready for production
+
 You can edit this workflow as needed in the file `.github/workflows/ci.yml`.
 
 <span id="seo"></span>
