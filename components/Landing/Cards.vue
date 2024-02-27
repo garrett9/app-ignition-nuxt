@@ -51,7 +51,7 @@
     >
       <LandingCard
         :title="$t('landing.appIgnitionDocsTitle')"
-        href="https://app-ignition.com/docs/1.0/about"
+        href="https://github.com/garrett9/app-ignition-nuxt?tab=readme-ov-file#nuxt-boilerplate-application-for-appignition"
         target="_blank"
         prepend-icon="mdi-rocket-launch"
       >

@@ -117,6 +117,13 @@ vuetify: {
 Within this configuration block, you can modify your application's default theme or customize your components' default properties.
 
 ### SASS Variables
+To alter Vuetify's component library to provide a different look and feel for your application, you can modify its extensive list of [SASS variables](https://vuetifyjs.com/en/features/sass-variables/#variable-api). The SASS compiler has already been added to this boilerplate, and all variable overrides can be made in the `assets/settings.scss` file.
+```scss
+@use "vuetify/settings" with (
+  $button-height: 44px
+  // More variables...
+);
+```
 
 <span id="authentication"></span>
 
