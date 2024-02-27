@@ -4,3 +4,7 @@
 @use "vuetify/settings" with (
   $button-height: 44px
 );
+
+html {
+  overflow-y: auto;
+}

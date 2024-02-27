@@ -1,5 +1,5 @@
 /**
- * You can read more about the NuxtJS i18n module here: https://i18n.nuxtjs.org/docs/getting-started
+ * You can read more about the Nuxt i18n module here: https://i18n.nuxtjs.org/docs/getting-started
  */
 export default defineI18nLocale(async () => {
   return {
@@ -46,13 +46,17 @@ export default defineI18nLocale(async () => {
 
     // Landing page
     landing: {
-      welcome: 'Welcome to your NuxtJS Application!',
+      welcome: 'Welcome to your Nuxt Application!',
       nuxtDocs:
-        'Understand all of features NuxtJS provides to enhance your Vue application and development experience.',
+        'Understand all of features Nuxt provides to enhance your Vue application and development experience.',
+      nuxtDocsTitle: 'Nuxt Documentation',
       vuetifyDocs:
         'Take a look at all of the components at your disposal, how to customize your theme, or the APIs you can use within each component.',
+      vuetifyDocsTitle: 'Vuetify Documentation',
       vuetifySassDocs: `This boilerplate application has already been configured to start modifying the look and feel of Vuetify's components. Check out all of the variables you can modify in your {file} file.`,
+      vuetifySassDocsTitle: 'Vuetify SASS Variables',
       appIgnitionDocs: `Read through the several utilities that have been added to this application that aim to improve your productivity.`,
+      appIgnitionDocsTitle: 'AppIgnition Documentation',
     },
 
     // Dashboard page

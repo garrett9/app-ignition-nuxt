@@ -1,14 +1,6 @@
 import { defineNuxtConfig } from 'nuxt/config';
-import type { ThemeDefinition } from 'vuetify';
 
-const appTheme: ThemeDefinition = {
-  dark: true,
-  variables: {
-    'btn-height': 100,
-  },
-};
-
-// See what else you can configure with NuxtJS: https://v3.nuxtjs.org/api/configuration/nuxt.config
+// See what else you can configure with Nuxt: https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   modules: [
     // Learn more: https://vuetify-nuxt-module.netlify.app/
@@ -59,11 +51,8 @@ export default defineNuxtConfig({
         },
       },
       theme: {
-        defaultTheme: 'appTheme',
         // Learn how to customize your branding with Vuetify: https://vuetifyjs.com/en/features/theme/#javascript
-        themes: {
-          appTheme,
-        },
+        defaultTheme: 'dark',
       },
     },
   },
@@ -76,7 +65,6 @@ export default defineNuxtConfig({
     locales: [
       {
         code: 'en',
-        iso: 'en-US',
         file: 'en-US.ts',
       },
     ],
@@ -84,12 +72,12 @@ export default defineNuxtConfig({
   site: {
     url: process.env.NUXT_PUBLIC_FRONTEND_URL,
   },
-  // Robots txt configuration
+  // robots.txt configuration located at /robots.txt
   robots: {
     UserAgent: '*',
     Allow: '/',
   },
-  // Sitemap configuration
+  // Sitemap configuration located at /sitemap.xml
   sitemap: {
     cacheMaxAgeSeconds: process.env.NODE_ENV === 'production' ? 3600 : 0,
   },

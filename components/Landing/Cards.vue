@@ -5,7 +5,7 @@
       md="6"
     >
       <LandingCard
-        title="NuxtJS Documentation"
+        :title="$t('landing.nuxtDocsTitle')"
         href="https://nuxt.com"
         target="_blank"
         prepend-icon="mdi-nuxt"
@@ -18,7 +18,7 @@
       md="6"
     >
       <LandingCard
-        title="Vuetify Documentation"
+        :title="$t('landing.vuetifyDocsTitle')"
         href="https://vuetifyjs.com"
         target="_blank"
         prepend-icon="$vuetify"
@@ -31,7 +31,7 @@
       md="6"
     >
       <LandingCard
-        title="Vuetify SASS Variables"
+        :title="$t('landing.vuetifySassDocsTitle')"
         href="https://vuetifyjs.com/en/features/sass-variables/#variable-api"
         target="_blank"
         prepend-icon="mdi-sass"
@@ -50,7 +50,7 @@
       md="6"
     >
       <LandingCard
-        title="AppIgnition Documentation"
+        :title="$t('landing.appIgnitionDocsTitle')"
         href="https://app-ignition.com/docs/1.0/about"
         target="_blank"
         prepend-icon="mdi-rocket-launch"
