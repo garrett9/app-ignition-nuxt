@@ -216,8 +216,8 @@ To aid in creating new forms with ease, you can make use of the `useSubmit` comp
 
 <script setup lang="ts">
 const data = reactive({
-  name: "John Doe",
-  email: "johndoe@gmail.com",
+  name: "",
+  email: "",
 });
 
 const {
