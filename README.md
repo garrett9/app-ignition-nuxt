@@ -319,7 +319,7 @@ robots: {
   UserAgent: '*',
   Allow: '/',
 },
-// Sitemap configuration
+// Sitemap configuration located at /sitemap.xml
 sitemap: {
   cacheMaxAgeSeconds: process.env.NODE_ENV === 'production' ? 3600 : 0,
 },
