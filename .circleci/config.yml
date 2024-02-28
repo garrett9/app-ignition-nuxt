@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   lint-and-verify-build:
     docker:
-      - image: cimg/node:18
+      - image: cimg/node:18.19.0
 
     steps:
       - checkout
