@@ -8,7 +8,7 @@ This application is a boilerplate [Nuxt](https://nuxt.com) application that can 
 - A basic implementation of several authentication features is ready to be connected to your back end. This includes several middleware scripts that determine whether a user is logged in, verified, etc.
 - A robust configuration of ESLint and Stylelint is included for an optimal Vue & Nuxt development experience.
 - The Nuxt Internationalization plugin has been added and is ready for immediate use.
-- A basic GitHub workflow has been configured for verifying your builds on new PRs against your `main` branch.
+- A basic GitHub workflow and CircleCI configuration has been configured for verifying your builds on new PRs against your `main` branch.
 - Automatic Sitemap generation has been included and is immediately available for your Nuxt routes.
 
 Continue reading this documentation for a more in-depth understanding on all of these features, and different ways you can customize them.
@@ -20,7 +20,7 @@ Continue reading this documentation for a more in-depth understanding on all of 
 - [API Utilities](#utilities)
 - [ESLint & Stylelint](#linting)
 - [Internationalization](#internationalization)
-- [GitHub Workflow](#github)
+- [Continuous Integration](#ci)
 - [SEO](#seo)
 
 <span id="installation"></span>
@@ -298,16 +298,16 @@ You can open the existing language `lang/en-US.ts` for all English translations,
 
 Your new language can be seen by prefixing your URL path with `/fr`.
 
-<span id="github"></span>
+<span id="ci"></span>
 
-## GitHub Workflow
-A GitHub workflow has been included with this boilerplate. It performs the following tasks:
+## Continuous Integration
+A GitHub workflow and CircleCI configuration has been included with this boilerplate. It performs the following tasks:
 1. Installs your NPM dependencies
 2. Runs ESLint
 3. Runs Stylelint
 4. Builds your app to verify it's ready for production
 
-You can edit this workflow as needed in the file `.github/workflows/ci.yml`.
+You can edit these configurations as needed in the `.github/workflows/ci.yml` or `.circleci/config.yml` files.
 
 <span id="seo"></span>
 
