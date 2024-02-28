@@ -1,0 +1,35 @@
+version: 2.1
+
+jobs:
+  lint-and-verify-build:
+    docker:
+      - image: circleci/node:18
+
+    steps:
+      - checkout
+
+      - run:
+          name: Install dependencies
+          command: npm ci
+
+      - run:
+          name: Run eslint
+          command: npm run eslint
+
+      - run:
+          name: Run stylelint
+          command: npm run stylelint
+
+      - run:
+          name: Build
+          command: npm run build
+
+workflows:
+  version: 2
+  main:
+    jobs:
+      - lint-and-verify-build:
+          filters:
+            branches:
+              only:
+                - main
