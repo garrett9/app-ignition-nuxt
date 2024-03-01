@@ -48,7 +48,7 @@ export default defineI18nLocale(async () => {
     landing: {
       welcome: 'Welcome to your Nuxt Application!',
       nuxtDocs:
-        'Understand all of features Nuxt provides to enhance your Vue application and development experience.',
+        'Understand all of the features Nuxt provides to enhance your Vue application and development experience.',
       nuxtDocsTitle: 'Nuxt Documentation',
       vuetifyDocs:
         'Take a look at all of the components at your disposal, how to customize your theme, or the APIs you can use within each component.',
