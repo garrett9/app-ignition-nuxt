@@ -23,7 +23,7 @@
           :loading="loading"
           @click="handleResendVerification"
         >
-          {{ $t('resendVerificationEmail') }}
+          {{ $t('verifyEmail.cta') }}
         </VBtn>
       </VSheet>
     </VCol>

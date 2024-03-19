@@ -73,6 +73,11 @@ NUXT_PUBLIC_BACKEND_URL=
 NUXT_PUBLIC_FRONTEND_URL=
 ```
 
+Once you're ready to begin developing, you can now run the following in your Nuxt application.
+```bash
+npm run dev
+```
+
 <span id="vuetify"></span>
 
 ## Vuetify
