@@ -5,7 +5,7 @@ export default defineNuxtRouteMiddleware(() => {
     return navigateTo('/login');
   }
 
-  if (user.value.email_verified_at || user.value.is_verified) {
+  if (user.value.email_verified_at) {
     const { home } = useRuntimeConfig().public;
     return navigateTo(home);
   }

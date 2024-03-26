@@ -44,5 +44,4 @@ export interface User extends ApiObject {
   name: string;
   email: string;
   email_verified_at?: number;
-  is_verified?: boolean;
 }
